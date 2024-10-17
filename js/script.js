@@ -67,7 +67,7 @@ const mailboxLocations = [
 
 for (let i = 1; i <= imageCount; i++) {
   const img = document.createElement("img");
-  img.src = `./images/mailbox/Mailbox${i}.JPG`; // 이미지 파일 이름이 mailbox1.jpg, mailbox2.jpg 등의 형식으로 생성
+  img.src = `./images/Mailbox/mailbox${i}.JPG`; // 이미지 파일 이름이 mailbox1.jpg, mailbox2.jpg 등의 형식으로 생성
   carouselImages.appendChild(img);
 
   // 이미지 클릭 시 해당 메일박스 위치의 구글 맵 링크로 이동
