@@ -17,52 +17,47 @@ const mailboxLocations = [
   { lat: 40.74319, lng: -73.99190 }, 
   { lat: 40.74362, lng: -73.99210 }, 
   { lat: 40.74365, lng: -73.99121 }, 
-  { lat: 52.52, lng: 13.405 }, // Berlin, Germany
-  { lat: 45.4654, lng: 9.1859 }, // Milan, Italy
   { lat: 40.73611, lng: -73.992111 },
-  { lat: 37.7749, lng: -122.4194 }, // San Francisco, CA
-  { lat: 34.0522, lng: -118.2437 }, // Los Angeles, CA
-  { lat: 40.7128, lng: -74.006 }, // New York, NY
-  { lat: 51.5074, lng: -0.1278 }, // London, UK
-  { lat: 48.8566, lng: 2.3522 }, // Paris, France
-  { lat: 35.6895, lng: 139.6917 }, // Tokyo, Japan
-  { lat: -33.8688, lng: 151.2093 }, // Sydney, Australia
-  { lat: 55.7558, lng: 37.6173 }, // Moscow, Russia
-  { lat: 52.52, lng: 13.405 }, // Berlin, Germany
-  { lat: 45.4654, lng: 9.1859 }, // Milan, Italy
+  { lat: 40.74299, lng: -73.99257 }, 
+  { lat: 40.74317, lng: -73.99134 }, 
+  { lat: 40.74316, lng: -73.99138 }, 
+  { lat: 40.74329, lng: -73.99184 }, 
+  { lat: 40.74328, lng: -73.99185 }, 
+  { lat: 40.74319, lng: -73.99190 }, 
+  { lat: 40.74362, lng: -73.99210 }, 
+  { lat: 40.74365, lng: -73.99121 },
   { lat: 40.73611, lng: -73.992111 },
-  { lat: 37.7749, lng: -122.4194 }, // San Francisco, CA
-  { lat: 34.0522, lng: -118.2437 }, // Los Angeles, CA
-  { lat: 40.7128, lng: -74.006 }, // New York, NY
-  { lat: 51.5074, lng: -0.1278 }, // London, UK
-  { lat: 48.8566, lng: 2.3522 }, // Paris, France
-  { lat: 35.6895, lng: 139.6917 }, // Tokyo, Japan
-  { lat: -33.8688, lng: 151.2093 }, // Sydney, Australia
-  { lat: 55.7558, lng: 37.6173 }, // Moscow, Russia
-  { lat: 52.52, lng: 13.405 }, // Berlin, Germany
-  { lat: 45.4654, lng: 9.1859 }, // Milan, Italy
+  { lat: 40.74299, lng: -73.99257 }, 
+  { lat: 40.74317, lng: -73.99134 }, 
+  { lat: 40.74316, lng: -73.99138 }, 
+  { lat: 40.74329, lng: -73.99184 }, 
+  { lat: 40.74328, lng: -73.99185 }, 
+  { lat: 40.74319, lng: -73.99190 }, 
+  { lat: 40.74362, lng: -73.99210 }, 
+  { lat: 40.74365, lng: -73.99121 }, 
   { lat: 40.73611, lng: -73.992111 },
-  { lat: 37.7749, lng: -122.4194 }, // San Francisco, CA
-  { lat: 34.0522, lng: -118.2437 }, // Los Angeles, CA
-  { lat: 40.7128, lng: -74.006 }, // New York, NY
-  { lat: 51.5074, lng: -0.1278 }, // London, UK
-  { lat: 48.8566, lng: 2.3522 }, // Paris, France
-  { lat: 35.6895, lng: 139.6917 }, // Tokyo, Japan
-  { lat: -33.8688, lng: 151.2093 }, // Sydney, Australia
-  { lat: 55.7558, lng: 37.6173 }, // Moscow, Russia
-  { lat: 52.52, lng: 13.405 }, // Berlin, Germany
-  { lat: 45.4654, lng: 9.1859 }, // Milan, Italy
+  { lat: 40.74299, lng: -73.99257 }, 
+  { lat: 40.74317, lng: -73.99134 }, 
+  { lat: 40.74316, lng: -73.99138 }, 
+  { lat: 40.74329, lng: -73.99184 }, 
+  { lat: 40.74328, lng: -73.99185 }, 
+  { lat: 40.74319, lng: -73.99190 }, 
+  { lat: 40.74362, lng: -73.99210 }, 
+  { lat: 40.74365, lng: -73.99121 },
   { lat: 40.73611, lng: -73.992111 },
-  { lat: 37.7749, lng: -122.4194 }, // San Francisco, CA
-  { lat: 34.0522, lng: -118.2437 }, // Los Angeles, CA
-  { lat: 40.7128, lng: -74.006 }, // New York, NY
-  { lat: 51.5074, lng: -0.1278 }, // London, UK
-  { lat: 48.8566, lng: 2.3522 }, // Paris, France
-  { lat: 35.6895, lng: 139.6917 }, // Tokyo, Japan
-  { lat: -33.8688, lng: 151.2093 }, // Sydney, Australia
-  { lat: 55.7558, lng: 37.6173 }, // Moscow, Russia
-  { lat: 52.52, lng: 13.405 }, // Berlin, Germany
-  { lat: 45.4654, lng: 9.1859 }, // Milan, Italy
+  { lat: 40.74299, lng: -73.99257 }, 
+  { lat: 40.74317, lng: -73.99134 }, 
+  { lat: 40.74316, lng: -73.99138 }, 
+  { lat: 40.74317, lng: -73.99134 }, 
+  { lat: 40.74316, lng: -73.99138 }, 
+  { lat: 40.74329, lng: -73.99184 }, 
+  { lat: 40.74328, lng: -73.99185 }, 
+  { lat: 40.74319, lng: -73.99190 }, 
+  { lat: 40.74362, lng: -73.99210 }, 
+  { lat: 40.74365, lng: -73.99121 },
+  { lat: 40.73611, lng: -73.992111 },
+  { lat: 40.74299, lng: -73.99257 }, 
+  { lat: 40.74317, lng: -73.99134 }, 
 ];
 
 for (let i = 1; i <= imageCount; i++) {
